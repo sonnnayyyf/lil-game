@@ -7,7 +7,7 @@ export default class StartScene extends Phaser.Scene {
 
     preload() {
         // Load the button click sound
-        this.load.audio('buttonClick', '/assets/button_click.mp3'); 
+        this.load.audio('buttonClick', './Assets/button_click.mp3'); 
         
     }
 
